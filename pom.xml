@@ -17,7 +17,6 @@
     <jacoco.version>0.8.3</jacoco.version>
     <java.version>11</java.version>
     <junit-jupiter.version>5.4.2</junit-jupiter.version>
-    <karate.version>0.9.2</karate.version>
     <logback.version>1.2.3</logback.version>
     <log4j2.version>2.11.2</log4j2.version>
     <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
