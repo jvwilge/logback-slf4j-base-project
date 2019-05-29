@@ -25,3 +25,16 @@ mvn archetype:generate -DarchetypeCatalog=local
 
 
 source: https://devcanvas.org/2015/11/17/create-your-own-maven-archetype/
+
+*Remove everything above the following line since you don't need these instructions after your finished* 
+-----------
+# Your project name here
+
+## Checking for vulnerabilities
+
+To run the Maven build with the _Owasp dependency check_ enabled run :
+```asciidoc
+mvn -Pcve clean verify
+```
+
+This will result in a report in a report in `target/dependency-check-report.html`
