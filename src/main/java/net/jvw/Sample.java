@@ -9,5 +9,8 @@ public class Sample {
 
   public Sample() {
     LOG.debug("Hello world");
+    LOG.info("Hello world");
+    LOG.warn("Hello world");
+    LOG.error("Hello world");
   }
 }

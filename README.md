@@ -1,6 +1,6 @@
 # logback-slf4j-base-project
 Basic Maven project with :
-- Java 11 
+- Java 17 
 - Logback (and slf4j bridges configured correctly)
 - JUnit 5, Mockito and AssertJ
 - Plugins configured for PIT, Jacoco, Enforcer, Failsafe and Surefire
