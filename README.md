@@ -2,6 +2,7 @@
 Basic Maven project with :
 - Java 17 
 - Logback (and slf4j bridges configured correctly)
+  - Version 1.4.x+ of Logback implies the use of the `jakarta.*` namespace instead of `javax.*`
 - JUnit 5, Mockito and AssertJ
 - Plugins configured for PIT, Jacoco, Enforcer, Failsafe and Surefire
 - Owasp dependency check (when using maven profile `cve`)
